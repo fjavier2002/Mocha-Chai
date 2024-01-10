@@ -1,0 +1,24 @@
+{
+  "name": "appsalud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --experimental-modules test/unitarias --experimental-modules test/integracion",
+    "bascula": "mocha --experimental-modules unitarias/bascula.spec.js",
+    "paciente": "mocha --experimental-modules unitarias/paciente.spec.js"
+  },
+  "keywords": [
+    "javascript",
+    "mocha",
+    "chai",
+    "pruebas",
+    "appSalud"
+  ],
+  "author": "Fº javier cerda ibañez",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
